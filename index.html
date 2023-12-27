@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module 6 - Lesson 12</title>
+    <style>
+      body {
+				background-color: #1e2125;
+				color: #fff;
+			}
+
+			.my-block {
+				width: 100px;
+				height: 100px;
+				background-color: tomato;
+				margin: 50px;
+			}
+
+			.my-block-blue {
+				background-color: cornflowerblue;
+			}
+
+			.toggle-button {
+				margin: 50px;
+			}
+
+			.form-error {
+				background-color: tomato;
+			}
+    </style>
+  </head>
+  <body>
+		<div>
+			<div class="my-block"></div>
+			<button class="toggle-button">Toggle Color</button>
+		</div>
+
+		<div class="container">
+			<form action="" name="login" id="loginForm">
+				<h1>Login</h1>
+				<input type="text" name="username" id="username" autocomplete="off" placeholder="Enter your username...">
+				<input type="password" name="password" id="password" autocomplete="off" placeholder="Enter your password...">
+				<button type="submit">Login</button>
+			</form>
+
+			<form action="" name="register" id="registerForm">
+				<h1>Register</h1>
+				<input type="text" name="username" id="username-register" autocomplete="off" placeholder="Enter your username..." />
+				<input type="password" name="password" id="password-register" autocomplete="off" placeholder="Enter your password..."> 
+				<button type="submit">Register</button>
+				<br />
+				<span class="form-errors"></span>
+			</form>
+		</div>
+
+		<script type="text/javascript" src="./js/script.js"></script>
+	</body>
+</html>
